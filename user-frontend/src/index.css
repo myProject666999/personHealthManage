@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.login-box {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.site-layout-content {
+  min-height: calc(100vh - 64px);
+  padding: 24px;
+  background: #f0f2f5;
+}
+
+.stats-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.stats-card .ant-statistic-title {
+  color: #666;
+  font-size: 14px;
+}
+
+.stats-card .ant-statistic-content {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.chart-container {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+.sport-card {
+  transition: all 0.3s ease;
+}
+
+.sport-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.evaluation-result {
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  color: white;
+}
+
+.evaluation-result .score {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.evaluation-result .status-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.suggestions-box {
+  margin-top: 20px;
+  padding: 20px;
+  background: #fffbe6;
+  border-radius: 8px;
+  border-left: 4px solid #faad14;
+}
